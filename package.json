@@ -1,0 +1,27 @@
+{
+  "name": "onepercent",
+  "version": "0.0.1",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "lint": "prettier --write . && ./gradlew formatKotlin && ./gradlew lintKotlin"
+  },
+  "keywords": [],
+  "author": "Marcus Vinicius Monteiro de Souza",
+  "license": "SEE LICENSE IN LICENSE",
+  "devDependencies": {
+    "@prettier/plugin-xml": "^0.12.0",
+    "husky": "^4.3.0",
+    "lint-staged": "^10.4.0",
+    "prettier": "^2.1.2"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.kt": "ktlint -F",
+    "*.{xml,json,md}": "prettier --write"
+  }
+}

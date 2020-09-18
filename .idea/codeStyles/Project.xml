@@ -4,7 +4,11 @@
       <option name="PACKAGES_TO_USE_STAR_IMPORTS">
         <value>
           <package name="java.util" alias="false" withSubpackages="false" />
-          <package name="kotlinx.android.synthetic" alias="false" withSubpackages="true" />
+          <package
+            name="kotlinx.android.synthetic"
+            alias="false"
+            withSubpackages="true"
+          />
           <package name="io.ktor" alias="false" withSubpackages="true" />
         </value>
       </option>
@@ -53,7 +57,8 @@
                 <AND>
                   <NAME>.*:id</NAME>
                   <XML_ATTRIBUTE />
-                  <XML_NAMESPACE>http://schemas.android.com/apk/res/android</XML_NAMESPACE>
+                  <XML_NAMESPACE
+                  >http://schemas.android.com/apk/res/android</XML_NAMESPACE>
                 </AND>
               </match>
             </rule>
@@ -64,7 +69,8 @@
                 <AND>
                   <NAME>.*:name</NAME>
                   <XML_ATTRIBUTE />
-                  <XML_NAMESPACE>http://schemas.android.com/apk/res/android</XML_NAMESPACE>
+                  <XML_NAMESPACE
+                  >http://schemas.android.com/apk/res/android</XML_NAMESPACE>
                 </AND>
               </match>
             </rule>
@@ -109,7 +115,8 @@
                 <AND>
                   <NAME>.*</NAME>
                   <XML_ATTRIBUTE />
-                  <XML_NAMESPACE>http://schemas.android.com/apk/res/android</XML_NAMESPACE>
+                  <XML_NAMESPACE
+                  >http://schemas.android.com/apk/res/android</XML_NAMESPACE>
                 </AND>
               </match>
               <order>ANDROID_ATTRIBUTE_ORDER</order>
